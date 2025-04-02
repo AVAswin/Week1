@@ -9,6 +9,6 @@ class Department {
     }
     
     void display() {
-        System.out.println("  Department: " + name);
+        System.out.println("Department: " + name);
     }
 }

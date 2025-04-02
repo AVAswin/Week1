@@ -15,6 +15,7 @@ class Main {
         
         // Display University details
         uni.display();
+        System.out.println("-------------");
         
         // University object is set to null for garbage collection
         uni = null;
