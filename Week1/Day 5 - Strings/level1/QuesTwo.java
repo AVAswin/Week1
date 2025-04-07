@@ -7,12 +7,14 @@ class QuesTwo {
         String str = scanner.nextLine();
         int pos = scanner.nextInt();
 
-        String substr1 = str.substring(pos, 5);
-        String substr2 = str.substring(pos + 1, 5);
+        String substr1 = str.substring(pos, 5); //usti
+        String substr2 = str.substring(pos + 1, 5); // sti
 
         if(substr1 == substr2) {
             System.out.println("True");
         } else {
+            System.out.println(substr1);
+            System.out.println(substr2);
             System.out.println("False");
         }
     }
